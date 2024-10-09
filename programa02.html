@@ -27,6 +27,14 @@
        mostrar(`O IMC de ${nome} é : ${calculaIMC(alturaInformada, pesoInformado)}`)
 
        //mostrar(`O imc do Pedro é : ${calculaIMC(1.84, 76)}`)
+
+       if(imc < 18.5){
+        mostrar(`${nome}, seu IMC está abaixo do normal(você está esquelético(a))`)
+       } else if( imc > 25){
+        mostrar(`${nome}, seu IMC está acima do normal(você está barrigudinho(a))`)
+       } else{
+        mostrar(`${nome}, seu IMC está normal`)
+       }
   
     </script>
 </body>

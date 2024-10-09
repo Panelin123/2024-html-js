@@ -16,6 +16,24 @@
         document.write(texto)
         pulalinha()
        }
+
+       const cachorroQuente = prompt(`Quantos cachorros quentes você comeu?`)       
+       const coxinha = prompt(`Quantas coxinhas vocÊ comeu?`)
+       const pizza = prompt(`Quantas pizzas você comeu?`)
+       const hamburgueresComidos = prompt(`Quantos hamburgúers você comeu?`)
+
+       let pontos = (pizza * 5) + (cachorroQuente * 3) + (coxinha * 2) + parseInt(hamburgueresComidos)
+
+       if(pontos > 30){
+        mostrar(`Você venceu a competição de comer hambúrguers! Pegue seu troféu e vale de R$200.00`)
+       } else if(pontos == 30){
+        mostrar(`Você ficou em segundo lugar na competição de comer hambúrguers! Pegue seu vale de R$ 30.00`)
+       } else if (pontos < 30 && pontos > 25){
+           mostrar(`Você ficou em terceiro lugar na competição de comer hambúrguers! Pegue seu vale de R$ 15.00`)
+       } else if( pontos < 25){
+        mostrar(`Não foi dessa vez :-( pegue o premio de consolação, uma coxinha com caldo de cana :-) Tente na próxima`)
+       }
+       mostrar(`O total de pontos que você fez na competição foi de: ${pontos}`)
     </script>
 </body>
 </html>
