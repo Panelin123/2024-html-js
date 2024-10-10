@@ -16,14 +16,15 @@
         pulalinha()
        }
 
-       let numeroSecreto = 3 
+       let numeroSecreto = Math.round(Math.random() * 10)
+       console.log(numeroSecreto)
 
        let chute = prompt(`Que número eu estou pensando?🧞 Dica está entre 1 e 10`)
 
        if(chute == numeroSecreto){
         mostrar(`Parabens você acertou, agora o governo vai te perseguir eternamente muhahahahah`)
        } else{
-        mostrar(`Você errou!👎🏼`)
+        mostrar(`Você errou, o número secreto é ${numeroSecreto}👎🏼`)
        }
 
        //If (chute!= numerosecreto) -> é o sinal de diferente
