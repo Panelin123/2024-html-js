@@ -15,6 +15,20 @@
         document.write(texto)
         pulalinha()
        }
+       let materia = prompt(`Qual disciplina você quer saber a média?`)
+
+       let trimestres = prompt(`Quantos trimestres você já fez de ${materia}?`)
+
+       let totalNotas = 0
+
+       for( let i = 1; i <= trimestres; i++){
+        let notas = parseInt(prompt(`Qual sua nota no ${i}º trimestre?`))
+        totalNotas = totalNotas + nota
+       }
+
+       let media = totalNotas/trimestres
+
+       mostrar(`Sua média até o momento é: ${media}`)
 
     </script>
 </body>
