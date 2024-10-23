@@ -32,3 +32,7 @@ header h1{
     font-family: var(--fonte-titulo);
     font-size: 3em;
 }
+.projetos{
+    padding: 2em;
+    display: flex;
+}
