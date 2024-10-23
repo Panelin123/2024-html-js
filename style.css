@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Underdog&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo:Underdog, system-ui;;
+    --fonte-texto:Mystery Quest, serif;;
+
+    --cor-cartão: rgb(104, 6, 50);
+    --cor-cabecalho: rgb(35, 6, 54);
+    --cor-texto1: rgb(0, 0, 0);
+    --cor-texto2: rgb(10, 1, 32);
+    --cor-destaque: #4361eeff;
+    --cor-fundo: #4cc9f0ff;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-texto);
+}
+header{
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+    padding: 2em;
+    color: var(--cor-texto1);
+}
+header h1{
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+}
