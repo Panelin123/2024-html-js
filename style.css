@@ -11,9 +11,11 @@
     --fonte-texto:Mystery Quest, serif;;
 
     --cor-cartão: rgb(104, 6, 50);
+    --cor-fundo-cartao: rgb(203, 9, 96);
     --cor-cabecalho: rgb(35, 6, 54);
-    --cor-texto1: rgb(0, 0, 0);
-    --cor-texto2: rgb(10, 1, 32);
+    --cor-texto1: rgb(251, 243, 243);
+    --cor-texto2: rgb(27, 3, 88);
+    --cor-texto3: rgb(0, 0, 0);
     --cor-destaque: #4361eeff;
     --cor-fundo: #4cc9f0ff;
 }
@@ -35,4 +37,24 @@ header h1{
 .projetos{
     padding: 2em;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartao{
+    text-align: center;
+    background-color: var(--cor-cartão);
+    width: 100%;
+    margin: 1em 0;
+    color: var(--cor-texto2);
+    padding: 1em 0 ;
+    border-radius: 20px;
+}
+
+.cartao:hover{
+    background-color: var(--cor-fundo-cartao);
+}
+
+.cartao a{
+    text-decoration: none;
+    color: var(--cor-texto3);
 }
