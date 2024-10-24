@@ -24,7 +24,7 @@ body{
     background-color: var(--cor-fundo);
     font-family: var(--fonte-texto);
 }
-header{
+header, footer{
     background-color: var(--cor-cabecalho);
     text-align: center;
     padding: 2em;
@@ -34,6 +34,11 @@ header h1{
     font-family: var(--fonte-titulo);
     font-size: 3em;
 }
+
+footer a{
+    color: var(--cor-texto1);
+}
+
 .projetos{
     padding: 2em;
     display: flex;
@@ -58,3 +63,5 @@ header h1{
     text-decoration: none;
     color: var(--cor-texto3);
 }
+
+
