@@ -35,6 +35,11 @@ header h1{
     font-size: 3em;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 footer a{
     color: var(--cor-texto1);
 }
@@ -64,4 +69,22 @@ footer a{
     color: var(--cor-texto3);
 }
 
+.principal-numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
 
+.numero-input{
+    font-size: 2em;
+}
+
+.principal-numero-botao{
+    margin-left: 1em;
+    font-size: 1em;
+    padding: 1em;
+    background-color: var(--cor-cartão);
+    border-radius: 60px;
+    color: beige;
+}
