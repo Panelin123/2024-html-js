@@ -69,6 +69,10 @@ footer a{
     color: var(--cor-texto3);
 }
 
+.ultimo_cartao{
+    margin-bottom: 5em;
+}
+
 .principal-numero{
     display: flex;
     justify-content: center;
